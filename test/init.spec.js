@@ -12,5 +12,3 @@ after(async () => {
     await mongoUnit.stop();
     console.log('In-momery MongoDB stopped');
 });
-
-// TODO ethan : lint
