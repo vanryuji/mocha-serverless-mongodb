@@ -1,0 +1,12 @@
+{
+  "name": "mocha-serverless-mongodb",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "mongo-unit": "^2.0.1",
+    "mongodb": "^3.6.9",
+    "serverless": "^2.43.1",
+    "serverless-dotenv-plugin": "^3.9.0",
+    "serverless-mocha-plugin": "^1.12.0"
+  }
+}

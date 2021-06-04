@@ -1,0 +1,23 @@
+service: mocha-serverless-mongodb
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+plugins:
+  - serverless-mocha-plugin
+  - serverless-dotenv-plugin
+
+functions:
+  insert:
+    handler: handler.test1
+    events:
+      - http:
+          path: test1
+          method: post
+  get:
+    handler: handler.test2
+    events:
+      - http:
+          path: test2
+          method: get
